@@ -1,0 +1,69 @@
+hh# Python bytecode and caches
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+*.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+develop-eggs/
+parts/
+sdist/
+var/
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Test artifacts
+.pytest_cache/
+.coverage*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Logs
+*.log
+
+# Data files (if large or generated - uncomment/add specific patterns)
+# *.csv
+# *.json
+# data/
+
+# Secrets (Should not be committed!)
+*.key
+*.pem
+credentials*
+secrets*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pyodide / Wasm build artifacts (if applicable)
+# *.wasm
+# *.js  # Be careful with generic JS if also writing JS source
+# build_wasm/
+
